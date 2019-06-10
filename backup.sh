@@ -66,7 +66,7 @@ if [ -z $dc ]; then
 fi
 
 project=${project:-default}
-dc_pg=${dc_pg:-postgresql}
+dc_pg=${dc_pg:-postgresql-nfs}
 
 dir=/tmp/oc_backup
 pg_db_name=moodle
